@@ -1,0 +1,67 @@
+.game
+    background-color $c-yellowish
+
+    &__decoration
+        margin-bottom w(9)
+        img
+            width 100%
+
+    &__container
+        text-align center
+        display flex
+        justify-content space-between
+        padding 0 w(92) w(10) w(92)
+
+    &__text
+        padding-top w(40)
+        width w(850)
+
+    &__title
+        font-family $ff-Dobrozrachniy
+        color $c-orange
+        -webkit-text-stroke .02em $c-yellow
+        font-size w(64)
+        line-height w(80)
+
+    &__explanation
+        font-family $ff-BazhanovC
+    
+    &__explanation-title
+        padding w(25) w(92) 0 w(84)
+        font-size w(24)
+        line-height w(35)
+        font-weight 700
+
+    &__explanation-text
+        font-size w(20)
+        padding w(38) w(190) w(30) w(185)
+        line-height w(30)
+    
+    &__button
+        font-family $ff-BazhanovC
+        border-radius 60px
+        border 3px solid $c-blue
+        background $c-yellow
+        font-size w(32)
+        padding w(20) w(100)
+        transition 0.5s
+        &:hover
+            background $c-orange
+            color $c-white
+            transition 0.5s
+            border 3px solid $c-white
+
+
+    &__cart-container
+        position relative
+        display flex
+        justify-content space-between
+    
+    &__cart
+        width w(410)
+        img
+            display block
+            margin-top w(5)
+            width 100%
+        
+
